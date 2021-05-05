@@ -36,7 +36,9 @@ Third party companies also provide commercial support and services for Druid, in
 
 * [Cloudera](https://www.cloudera.com/)
 * [Datumo](https://datumo.io/)
+* [Deep.BI](https://www.deep.bi/solutions/apache-druid)
 * [Imply](https://imply.io/)
+* [Rill Data](https://www.rilldata.com/)
 
 ## Contributing
 
@@ -48,7 +50,7 @@ of anything from minor fixes to big new features.
 If you have an itch to scratch, then by all means do that! Fixing bugs you run
 into, or adding features you need, are both immensely helpful.
 
-If you're looking for some starter projects, we maintain a [list of issues](https://github.com/apache/incubator-druid/issues?q=is%3Aopen+is%3Aissue+label%3AStarter) suitable
+If you're looking for some starter projects, we maintain a [list of issues](https://github.com/apache/druid/issues?q=is%3Aopen+is%3Aissue+label%3AStarter) suitable
 for new developers.
 
 There are plenty of ways to help outside writing Druid code. *Code review of pull requests*
@@ -60,7 +62,7 @@ to include it in the list.
 
 ### Getting your changes accepted
 
-Patches to Druid are done through GitHub pull requests.
+Patches to Druid are done through [GitHub pull requests](https://github.com/apache/druid/pulls).
 
 Pull requests require one approval (+1) from an established committer on code and text (for documentation) levels. The
 exception is major architectural changes or API changes, and/or changes to
@@ -75,9 +77,13 @@ warrant additional design and compatibility review. Such pull requests require d
 committers (one of them could also be the author of the pull request). For those, it can help to discuss things
 on the Druid development list [dev@druid.apache.org](https://lists.apache.org/list.html?dev@druid.apache.org) or a github issue beforehand.
 
-In general please follow the [contributing guidelines](https://github.com/apache/incubator-druid/blob/master/CONTRIBUTING.md)
+In general please follow the [contributing guidelines](https://github.com/apache/druid/blob/master/CONTRIBUTING.md)
 when sending in pull requests. This will help review proceed as quickly as
 possible.
+
+### Testing
+
+All Pull Requests are automatically tested on [Travis CI](https://travis-ci.com/apache/druid) on both AMD64 and ARM64 architectures.
 
 ### Committers
 
@@ -89,18 +95,22 @@ You don't need to be a committer to contribute- pull requests are welcome from a
 
 | Name                                                      | Organization                                       |
 | -----------------------------------------------------     | -------------------------------------------------- |
-| [Alexander Saydakov](https://github.com/AlexanderSaydakov)| [Oath](https://www.oath.com/)                      |
+| [Abhishek Agarwal](https://github.com/abhishekagarwal87)  | [Imply](https://imply.io/)                         |
+| [Alexander Saydakov](https://github.com/AlexanderSaydakov)| [Verizon Media](https://www.verizonmedia.com/)     |
+| [Atul Mohan](https://github.com/a2l007)                   | [Yahoo](https://www.yahoo.com/)                    |
 | [Benedict Jin](https://github.com/asdf2014)               | [Alibaba](https://www.alibaba.com/)                |
 | [Charles Allen](https://github.com/drcrallen)             | [Snap](https://www.snap.com/en-US/)                |
 | [Chi Cao Minh](https://github.com/ccaominh)               | [Imply](https://imply.io/)                         |
 | [Clint Wylie](https://github.com/clintropolis)            | [Imply](https://imply.io/)                         |
+| [David Glasser](https://github.com/glasser)               | [Apollo GraphQL](https://apollographql.com/)       |
 | [David Lim](https://github.com/dclim)                     | [Imply](https://imply.io/)                         |
 | [Daoyue Gao](https://github.com/gaodayue)                 | [Meituan](http://www.meituan.com/)                 |
 | [Dylan Wylie](https://github.com/Dylan1312)               | [SpotX](https://www.spotx.tv/)                     |
-| [Egor Rashin](https://github.com/egor-ryashin)            | [Snap](https://www.snap.com/en-US/)                |
+| [Egor Rashin](https://github.com/egor-ryashin)            | [Rill Data](https://www.rilldata.com/)             |
 | [Eric Tschetter](https://github.com/cheddar)              | [Splunk](https://www.splunk.com/)                  |
 | [Fangjin Yang](https://github.com/fjy)                    | [Imply](https://imply.io/)                         |
 | [Fokko Driesprong](https://github.com/Fokko)              | [GoDataDriven](https://godatadriven.com/)          |
+| [Frank Chen](https://github.com/FrankChen021)             |                                                    |
 | [Furkan Kamaci](https://github.com/kamaci)                | [Lagom](https://lagom.ai/)                         |
 | [Gian Merlino](https://github.com/gianm)                  | [Imply](https://imply.io/)                         |
 | [Himanshu Gupta](https://github.com/himanshug)            | [Splunk](https://www.splunk.com/)                  |
@@ -111,20 +121,28 @@ You don't need to be a committer to contribute- pull requests are welcome from a
 | [Kaijian Ding](https://github.com/kaijianding)            | [Alibaba](https://www.alibaba.com/)                |
 | [Kurt Young](https://github.com/kurtyoung)                | [Alibaba](https://www.alibaba.com/)                |
 | [Lijin Bin](https://github.com/binlijin)                  | [Alibaba](https://www.alibaba.com/)                |
-| [Maxime Beauchemin](https://github.com/mistercrunch)      | [Lyft](http://lyft.com/)                           |
+| [Lucas Capistrant](https://github.com/capistrant)         | [Target](https://www.target.com/)                  |
+| [Maggie Brewster](https://github.com/mcbrewster)          | [Imply](https://www.imply.io/)                     |
+| [Maxime Beauchemin](https://github.com/mistercrunch)      | [Preset](http://preset.io/)                        |
+| [Maytas Monsereenusornn](https://github.com/maytasm)      | [Imply](https://www.imply.io/)                     |
+| [Michael Schiff](https://github.com/michaelschiff)        | [Adobe](https://www.adobe.com/)                    |
 | [Mingming Qiu](https://github.com/QiuMM)                  | [Bytedance](https://bytedance.com/)                |
 | [Mohamed Slim Bouguerra](https://github.com/b-slim)       | [LinkedIn](https://www.linkedin.com/)              |
 | [Navis Ryu](https://github.com/navis)                     | [SK Telecom](https://www.sktelecom.com/index.html) |
-| [Niketh Sabbineni](https://github.com/niketh)             | [Oath](https://www.oath.com/)                      |
-| [Nishant Bangarwa](https://github.com/nishantmonu51)      | Independent                                        |
-| [Parag Jain](https://github.com/pjain1)                   | [Lyft](http://lyft.com/)                           |
+| [Niketh Sabbineni](https://github.com/niketh)             | [Verizon Media](https://www.verizonmedia.com/)     |
+| [Nishant Bangarwa](https://github.com/nishantmonu51)      | [Rill Data](https://www.rilldata.com/)             |
+| [Parag Jain](https://github.com/pjain1)                   | [Rill Data](https://www.rilldata.com/)             |
 | [P. Taylor Goetz](https://github.com/ptgoetz)             | [EPAM](https://www.epam.com/)                      |
 | [Roman Leventov](https://github.com/leventov)             | [Snap](https://www.snap.com/en-US/)                |
 | [Samarth Jain](https://github.com/samarthjain)            | [Netflix](https://www.netflix.com/)                |
+| [Steve Hetland](https://github.com/sthetland     )        | [Imply](https://imply.io/)                         |
+| [Suneet Saldanha](https://github.com/suneet-s)            | [Imply](https://imply.io/)                         |
 | [Surekha Saharan](https://github.com/surekhasaharan)      | [Imply](https://imply.io/)                         |
 | [Vadim Ogievetsky](https://github.com/vogievetsky)        | [Imply](https://imply.io/)                         |
 | [Xavier Léauté](https://github.com/xvrl)                  | [Confluent](https://www.confluent.io/)             |
 | [Xinyu Zhang](https://github.com/zhangxinyu1)             | [Qihoo 360](https://www.360.cn/)                   |
+| [Yue Zhang](https://github.com/zhangyue19921010)          |                                                    |
+| [Zach Sherman](https://github.com/zachjsh)                | [Imply](https://imply.io/)                         |
 
 ### Becoming a committer
 

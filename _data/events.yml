@@ -1,24 +1,24 @@
-- date: 2020-08-19
-  name: "Apache Druid: Lightning Fast Analytics on Real-time and Historical Data"
-  info: "Big Data ATL Meetup"
-  link: https://www.meetup.com/BigDataATL/events/272228743
+- date: 2021-05-05
+  name: "Some Like It Hot: Choosing a System for Large-Scale Data Analysis"
+  info: Philly Emerging Tech Conference
+  link: https://2021.phillyemergingtech.com/talks/some-like-it-hot/
+
+- date: 2021-05-18
+  name: "May Apache Druid Office Hours"
+  info: Bay Area Apache Druid Meetup
+  link: https://www.meetup.com/druidio/events/277839249/
   
-- date: 2020-08-20
-  name: "August Office Hours: All About Apache Druid"
-  info: "Bay Area Apache Druid Meetup"
-  link: https://www.meetup.com/druidio/events/272423800/
+- date: 2021-05-24
+  name: "The May Apache Druid Drop-In"
+  info: London Apache Druid Meetup
+  link: https://www.meetup.com/Apache-Druid-London/events/277839451
   
-- date: 2020-09-01
-  name: "Apache Druid: the open source, performant, real-time, analytical datastore"
-  info: "DataOps Polska"
-  link: https://www.meetup.com/DataOps-Polska/events/271935936/
+- date: 2021-05-26
+  name: "Funnel Analysis with Apache Spark and Druid"
+  info: Data + AI Summit 2021
+  link: https://databricks.cventevents.com/event/45414668-315b-4f08-b539-d9269a28d939/register
   
-- date: 2020-09-02
-  name: "Virtual Druid Summit II"
-  info: "Free Online Half-Day Event"
-  link: https://go.imply.io/Virtual-Druid-Summit-II-Registration.html
-  
-- date: 2020-11-02
-  name: "Druid Summit"
-  info: "San Francisco Airport Marriott Waterfront, 1800 Old Bayshore Highway, Burlingame, CA"
-  link: https://druidsummit.org/
+- date: 2021-05-27
+  name: "Druid & Trino Day: Unlocking Self-Service & Real-Time Analytics Across Netflix"
+  info: Bay Area Apache Druid Meetup
+  link: https://www.meetup.com/druidio/events/277837014/ 

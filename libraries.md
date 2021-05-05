@@ -59,6 +59,10 @@ Some great folks have written their own libraries to interact with Apache Druid.
 
 * [raygun/druid4net](https://github.com/MindscapeHQ/druid4net) - A .NET client for Druid written in C#. Supports the .NET full framework and .NET Core.
 
+#### Rust
+
+* [bugzmanov/druid-io-rs](https://github.com/bugzmanov/druid-io-rs) - Fully asynchronous, future-enabled Apache Druid client library for rust programming language.
+
 Other Druid Distributions
 -------------------------
 * [eBay/embedded-druid](https://github.com/eBay/embedded-druid) - Leveraging Druid capabilities in stand alone application
@@ -69,6 +73,7 @@ UIs
 ---
 
 * [airbnb/superset](https://github.com/airbnb/superset) - A web application to slice, dice and visualize data out of Druid. Formerly Caravel and Panoramix
+* [Deep.Explorer](https://www.deep.bi/solutions/apache-druid) - A UI built for slice & dice analytics, adhoc queries and powerful, easy data visualizations
 * [Grafana](https://github.com/societe-generale/druidplugin) - A plugin for [Grafana](http://grafana.org/)
 * [grafana](https://github.com/Quantiply/grafana-plugins/tree/master/features/druid) - A plugin for [Grafana](http://grafana.org/)
 * [Pivot](https://github.com/implydata/pivot) - An exploratory analytics UI for Druid
@@ -82,6 +87,7 @@ Tools
 * [liquidm/druid-dumbo](https://github.com/liquidm/druid-dumbo) - Scripts to help generate batch configs for the ingestion of data into Druid
 * [housejester/druid-test-harness](https://github.com/housejester/druid-test-harness) - A set of scripts to simplify standing up some servers and seeing how things work
 * [spaghettifunk/druid-prometheus-exporter](https://github.com/spaghettifunk/druid-prometheus-exporter) - A HTTP service for collecting Druid metrics and exposing them as Prometheus metrics
+* [rovio-ingest](https://github.com/rovio/rovio-ingest) - An implementation of the DatasourceV2 interface of Apache Spark™ for writing Spark Datasets to Apache Druid™.
 
 Community Extensions
 --------------------
